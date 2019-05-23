@@ -17,13 +17,13 @@ Download MobaXterm and SHH to the mininet VM.
 
 In MobaXterm, run the Circular topology
 ```
-sudo mn --custom Circulartopolo.py --topo=mytopo  --mac --switch=ovsk,\
+$ sudo mn --custom Circulartopolo.py --topo=mytopo  --mac --switch=ovsk,\
  protocols=OpenFlow13 --controller remote
 ```
 
 Open another SSH session and run the ryu application
 ```
- ryu-manager my_controller.py
+$ ryu-manager my_controller.py
 ```
 
 Now you can start experimenting!
