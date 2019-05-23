@@ -18,7 +18,7 @@ Download MobaXterm and SHH to the mininet VM.
 In MobaXterm, run the Circular topology
 ```
 $ sudo mn --custom Circulartopolo.py --topo=mytopo  --mac --switch=ovsk,\
- protocols=OpenFlow13 --controller remote
+  protocols=OpenFlow13 --controller remote
 ```
 
 Install Ryu
@@ -67,7 +67,7 @@ Then, with ryu.simple_monitor_13.py, we can calculate how much data is sent on l
 
 * Python 3.6.0 :: Anaconda custom (64-bit)
 * mininet-2.2.2-170321-ubuntu-14.04.4-server-i386
-* ryu https://github.com/osrg/ryu
+* Ryu: https://github.com/osrg/ryu
 
 ## Authors
 
