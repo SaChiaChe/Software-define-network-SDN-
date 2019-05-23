@@ -26,7 +26,7 @@ Install Ryu
 $ sudo apt-get update
 $ sudo apt-get install python-pip python-dev -y
 $ sudo apt-get install python-eventlet python-routes \
-		   python-webob python-paramiko -y
+		       python-webob python-paramiko -y
 $ sudo pip install ryu
 $ sudo pip install --upgrade six
 ```
