@@ -3,10 +3,7 @@ Practicing SDN with mininet and ryu.
 
 ## How to run
 
-Setup mininet
-Simply import 
-mn-trusty32server-170321-14-13-31/mininet-2.2.2-170321-ubuntu-14.04.4-server-i386 
-to VMBox.
+Download mininet and setup in VMBox.
 
 Start the VM login with username: mininet & password: mininet
 
